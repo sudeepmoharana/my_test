@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Firefox"/>
+  <test name="TestSeachInChrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.sudeeptest.app.AppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sudeeptest.app.AppTest -->
+    </classes>
+  </test> <!-- TestSeachInChrome(failed) -->
+  <test name="TestSeachInFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.sudeeptest.app.AppTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.sudeeptest.app.AppTest -->
+    </classes>
+  </test> <!-- TestSeachInFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

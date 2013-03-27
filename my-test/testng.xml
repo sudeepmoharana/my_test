@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="TestSeachInChrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.sudeeptest.app.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestSeachInFirefox">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="com.sudeeptest.app.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

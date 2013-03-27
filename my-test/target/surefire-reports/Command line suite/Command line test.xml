@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Sudeeps-MacBook-Pro.local" name="com.sudeeptest.app.AppTest" tests="1" failures="0" timestamp="13 Mar 2013 18:21:46 GMT" time="0.021" errors="0">
+  <testcase name="@AfterTest tearDown" time="0.0" classname="com.sudeeptest.app.AppTest">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.sudeeptest.app.AppTest.tearDown(AppTest.java:43)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:60)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:106)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testApp" time="0.004" classname="com.sudeeptest.app.AppTest">
+    <skipped/>
+  </testcase>
+</testsuite>
